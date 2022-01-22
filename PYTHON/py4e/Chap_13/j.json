@@ -1,0 +1,93 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "925",
+                    "short_name": "925",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "South Federal Highway",
+                    "short_name": "S Federal Hwy",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Boca Raton",
+                    "short_name": "Boca Raton",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Palm Beach County",
+                    "short_name": "Palm Beach County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Florida",
+                    "short_name": "FL",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "United States",
+                    "short_name": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "33432",
+                    "short_name": "33432",
+                    "types": [
+                        "postal_code"
+                    ]
+                },
+                {
+                    "long_name": "6145",
+                    "short_name": "6145",
+                    "types": [
+                        "postal_code_suffix"
+                    ]
+                }
+            ],
+            "formatted_address": "925 S Federal Hwy, Boca Raton, FL 33432, USA",
+            "geometry": {
+                "location": {
+                    "lat": 26.3416119,
+                    "lng": -80.0867329
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 26.3429608802915,
+                        "lng": -80.08538391970849
+                    },
+                    "southwest": {
+                        "lat": 26.3402629197085,
+                        "lng": -80.08808188029151
+                    }
+                }
+            },
+            "place_id": "ChIJLzabHQ7i2IgRzeZb_AgUj0Q",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "university"
+            ]
+        }
+    ],
+    "status": "OK"
+}
