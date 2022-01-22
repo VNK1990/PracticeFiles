@@ -25,6 +25,7 @@ def get_fibonacci_huge_fast(n, m):
         return n
 
     length = get_pattern_length(n, m)
+    print(length)
     if length != 0:
         new_num = n % length
     else:
@@ -53,7 +54,7 @@ def get_fibonacci_huge_naive(n, m):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read();
+    input = input('Enter two num ')#sys.stdin.read();
     n, m = map(int, input.split())
-    #print('Slow : ', get_fibonacci_huge_naive(n, m))
+    print('Slow : ', get_fibonacci_huge_naive(n, m))
     print(get_fibonacci_huge_fast(n, m))
