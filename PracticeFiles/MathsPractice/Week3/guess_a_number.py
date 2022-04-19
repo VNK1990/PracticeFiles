@@ -21,6 +21,6 @@ def guess_a_num(nlist, count, qs):
 
 if __name__ == '__main__':
     num_list = []
-    for c in range(1,16):
+    for c in range(1,127):
         num_list.append(c)
-    guess_a_num(num_list, count = 1, qs = 4)
+    guess_a_num(num_list, count = 1, qs = 7)
